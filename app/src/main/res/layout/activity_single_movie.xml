@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_element"
     tools:context=".ui.single_movie_details.SingleMovie">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+       >
 
         <ProgressBar
             android:id="@+id/progress_bar"
@@ -57,14 +59,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="movie"
+                        android:textColor="@color/white"
                         android:textStyle="bold"
-                        android:textSize="18sp"/>
+                        android:textSize="20sp"/>
 
                     <TextView
                         android:id="@+id/movie_tagline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="sub title"
+                        android:textColor="@color/white"
                         android:textSize="14sp"
                         android:textStyle="bold"/>
 
@@ -72,6 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Movie Info"
+                        android:textColor="@color/white"
                         android:layout_marginTop="15dp"
                         android:textSize="14sp"
                         android:textStyle="bold"/>
@@ -86,6 +91,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:text="ReleaseD  ate: "
+                            android:textColor="@color/white"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -94,6 +100,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             android:text="2019"
                             android:textSize="12sp"/>
 
@@ -109,6 +116,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:text="Rating: "
+                            android:textColor="@color/white"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -116,6 +124,7 @@
                             android:id="@+id/movie_rating"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/white"
                             android:layout_marginTop="2dp"
                             android:text="8"
                             android:textSize="12sp"/>
@@ -132,6 +141,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:text="Runtime: "
+                            android:textColor="@color/white"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -141,6 +151,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:text="2.3 hr"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -154,6 +165,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             android:text="Budget: "
                             android:textSize="12sp"
                             android:textStyle="bold"/>
@@ -163,6 +175,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             android:text="130,000"
                             android:textSize="12sp"/>
 
@@ -177,6 +190,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             android:text="Revenue: "
                             android:textSize="12sp"
                             android:textStyle="bold"/>
@@ -186,6 +200,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             android:text="130,000"
                             android:textSize="12sp"/>
 
@@ -197,6 +212,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
+                        android:textColor="@color/white"
                         android:text="Overview "
                         android:textSize="12sp"
                         android:textStyle="bold"/>
@@ -204,6 +220,7 @@
                         android:id="@+id/movie_overview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/white"
                         android:layout_marginTop="2dp"
                         android:text="overview ........."
                         android:textSize="12sp"/>

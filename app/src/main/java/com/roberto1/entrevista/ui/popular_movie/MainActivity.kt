@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         val movieAdapter = PopularMoviePagedListAdapter(this)
 
-        val gridLayoutManager = GridLayoutManager(this, 3)
+        val gridLayoutManager = GridLayoutManager(this, 3) //para dividir peliculas en fila de 3
 
         gridLayoutManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
             override fun getSpanSize(position: Int): Int {
